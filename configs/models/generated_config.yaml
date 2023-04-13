@@ -1,0 +1,12 @@
+class_path: models.ExpandableMLP.ExpandableMLPLM
+init_args:
+  activation: torch.nn.ReLU
+  bias: true
+  hidden_dims:
+  - 780
+  - 780
+  input_dim: 3072
+  norm: torch.nn.BatchNorm1d
+  num_blocks: 2
+  num_classes: 10
+  strategy: null
